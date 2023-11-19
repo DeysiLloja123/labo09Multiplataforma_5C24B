@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:lab9_multi_5C24B"
+             x:Class="lab9_multi_5C24B.PanDemo">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+            <local:PanContainer>
+                <Image Source="monkey.jpg" 
+                       WidthRequest="1024" HeightRequest="768" />
+            </local:PanContainer>
+        </AbsoluteLayout>
+    </ContentPage.Content>
+</ContentPage>
+    
+    
